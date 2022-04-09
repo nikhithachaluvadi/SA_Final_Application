@@ -1,1 +1,7 @@
-# SA_Final_Application
+Estimation of Work
+
+Before we can use the functionality in our project, we must first license it. The three licenses that must be acquired are basic, part operations, and solid modeling. It usually takes three days to add the licenses to the project. Our to-do list also includes FlexLM implementation, licensing library, checkout license, check back in, initialize, and shut down licensing. The full API, as well as the automated API, will undergo changes. We'd like to be able to uncheck licenses we don't require. The most common licenses are those that we utilize regularly in scenarios.
+
+Requirements
+
+The major goals of our project are to create a fictitious FlexLM system that reads a text file of available licenses and to create a licensing library that sits on top of Flex LM Libraries. Cloud apps and desktop apps are among the requirements. To use the JSON API in cloud apps, we need some kind of authentication. We require a license toolkit that we can develop as a desktop application on our own. Flexera's FLEXLM toolkit is a paid toolkit that we employ. The team must create a local licensing file or a network license server. When the license server reads the license file, it validates the list of entitlements. The difficult aspect is dividing the code into sections that can only be accessible using the license features we desire. These are the most important considerations for the project.

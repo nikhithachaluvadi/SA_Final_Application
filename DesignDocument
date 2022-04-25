@@ -1,0 +1,37 @@
+AppPartOps
+  1.Journaling Part
+    -Converting a string to a double string is being tested.
+    -double StringToDouble(const std::string &s;);
+    -This function runs a number of tests to make sure it's working properly.
+    -void Test_StringToDouble();
+   2.Dll Main
+    - The following methods are  available to input AMPL commands;
+    amplpy.AMPL.eval(), 
+    amplpy.AMPL.read() and amplpy. AMPL.read_data() / readData();
+   3.Journaling Session
+    -- Create a callback for AMPL's implementation of async operations (amp1::Runnable) Async operations can be started and stopped.
+ Automation Binding
+  1.Wire Builder
+    -Although all assert conditions must eventually evaluate to a TRUE or FALSE Boolean result, reducing every statement to this form can be cumbersome. To aid you, the xUnits provide a number of assert functions.
+    - As demonstrated above, this assert method offers versions that take a message parameter to describe the failure. There are several implementations of the assertEquals() function that take different data types as inputs.
+   2.Rooting Collection
+    -When an unexpected exception is encountered, this unit test uses fail() to cause the test to fail. The assert message is derived from the message attribute of the exception.
+    - Expected error behavior that is not represented by an exception is tested using the same general pattern: the test fails if the error is not visible and succeeds if it is.
+   3.BlockBuilder
+    -- The ActuateLights(bool motionDetected) method takes two more arguments: a pair of Action delegates that point to methods that should be called to turn on and off the light.
+  Fake Automation
+    1.CallFakeJavaAutomotion
+      -If you need to support clients that are using older versions of Java and can't add a dependency, HTTPUrlConnection is the way to go
+    2.FakeAutomationJava
+      - To construct an interface that declares the APOD API methods you use, together with annotations describing how those methods correspond to HTTP requests.
+      - This is an asynchronous client because the return type is CompletableFutureAPOD>. Other adapters will be provided by Square, or you can write your own. Having an interface like this allows you to impersonate the client for testing purposes.
+ Journaling
+  1.JournalCallParamDataClass
+      -- HttpClient takes a BodyHandler to convert an HTTP response to a class of your choice. String, byte[] for binary input, StreamString> for line splitting, and a few more are built-in handlers. You can also create your own, which is useful because there isn't a built-in JSON BodyHandler. We call because the code returns a Supplier for the APOD class. When we require the result, we use get().
+  2.Journaling.cpp
+      -- The current system time is retrieved and a result is returned based on that value. Essentially, a concealed input that will most likely change during the course of the program or between test runs. As a result, subsequent calls to it will yield different outcomes.
+UI Library
+  1.Dllmain.cpp
+    -- To process keyboard and mouse input, you must overload the empanel1 input method. It obtains the current mouse position (mx, my) in the panel's coordinate system. Don't forget to invoke the base class implementation while overloading the input method. To alter the focus, Empanel1 consumes specific keyboard and mouse events. As a result, you should not consume those events before invoking the base.class, although you may utilize them for other purposes.
+ 
+

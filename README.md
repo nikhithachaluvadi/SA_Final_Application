@@ -7,7 +7,7 @@ Requirements
 The major goals of our project are to create a fictitious FlexLM system that reads a text file of available licenses and to create a licensing library that sits on top of Flex LM Libraries. Cloud apps and desktop apps are among the requirements. To use the JSON API in cloud apps, we need some kind of authentication. We require a license toolkit that we can develop as a desktop application on our own. Flexera's FLEXLM toolkit is a paid toolkit that we employ. The team must create a local licensing file or a network license server. When the license server reads the license file, it validates the list of entitlements. The difficult aspect is dividing the code into sections that can only be accessible using the license features we desire. These are the most important considerations for the project.
 Design Document
 
-For Design Document 
+For Design Document (DesignDocument)
 
 Conclusions
 
